@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+public/lakeshore-ss.png
+public/rcmc-ss.png
