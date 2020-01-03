@@ -1,0 +1,60 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.main_page_header{
+    height: 500px;
+    background: fixed;
+    background-image: url("./img/home1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main_page_header_words{
+    text-align: center;
+    color: #555;
+    font-size:  4em;
+    font-weight: bold;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three-links > a {
+    text-decoration: none;
+}
+
+.three-links{
+    font-size: 3em;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.three-links-rehab{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    flex-grow: 1;
+}
+
+.three-links-medical{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    flex-grow: 1;
+}
+
+.three-links-pharmacy{
+    border: black;
+    border-width: 2px;
+    border-style: solid;
+    flex-grow: 1;
+}

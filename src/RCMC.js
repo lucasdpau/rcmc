@@ -1,10 +1,11 @@
 import React from 'react';
+import "./rcmcmain.css";
 
 function Header(){
     return(
         <div class="main_page_header">
             <div class="main_page_header_words">
-                Welcome to Royal Care Medical Center.
+                Welcome to Royal Care Medical Center
             </div>
         </div>
     );
@@ -13,10 +14,10 @@ function Header(){
 function Body(){
     return(
         <div class="main_page_body">
-            <div>
-                <a href="/rehab">Rehab</a>
-                <a href="/medical">Medical</a>
-                <a href="/pharmacy">Pharmacy</a>
+            <div class="three-links">
+                <a href="/rehab" class="three-links-rehab"><img src="./rehab-icon.jpg"></img>Rehab</a>
+                <a href="/medical" class="three-links-medical"><img src="./medical-icon.png"></img>Medical</a>
+                <a href="/pharmacy" class="three-links-pharmacy"><img src="./pharmacy-icon.png"></img>Pharmacy</a>
             </div>
             <div>
                 <h2>Welcome to Royal Care Medical Centre</h2>
