@@ -1,5 +1,6 @@
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0px;
 }
 
 .main_page_header{
@@ -27,15 +28,23 @@ body{
     text-decoration: none;
 }
 
+.three-links-img{
+    max-width: 100%;
+    height:auto;
+}
+
 .three-links{
-    font-size: 3em;
-    margin-left: 20%;
-    margin-right: 20%;
+    font-size: 2.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 40px;
     border: black;
     border-width: 2px;
     border-style: solid;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .three-links-rehab{
@@ -57,4 +66,17 @@ body{
     border-width: 2px;
     border-style: solid;
     flex-grow: 1;
+}
+
+.rcmc-description{
+    margin:auto;
+    max-width: 70%;
+}
+
+.body-header{
+    text-align:center;
+}
+
+.main_page_footer{
+    text-align: center;
 }
