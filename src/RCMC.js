@@ -37,6 +37,7 @@ function Body(){
                 <RcmcContactCard />
                 <LakeshoreContactCard />
             </div>
+            <Contacts />
             <div>
                 Maps
                 <br />
@@ -83,6 +84,34 @@ function LakeshoreContactCard(){
         </div>
     );
 }
+
+function Contacts(){
+    return(
+        <div>
+            <div>
+                Medical (College St.)
+                info@royalcaremedical.com
+                (416) 925-5511  
+            </div>
+            <div>
+                Rehab
+                info@royalcarerehab.com          
+                (416) 925-2929 
+            </div>
+            <div>
+                Pharmacy
+                info@royalcarepharmacy.com
+                (416) 925 - 5000      
+            </div>
+            <div>
+                Optometry
+                Sandra.solano@rocketmail.com 
+                (647) 893 - 1925  
+            </div>
+        </div>
+    );
+}
+
 
 function Footer(){
     return(

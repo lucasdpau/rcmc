@@ -24,13 +24,26 @@ body{
     justify-content: center;
 }
 
+.pharmacy_page_header{
+    height: 500px;
+    background: fixed;
+    background-image: url("./img/pharmacy2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pharmacy_page_header_words{
+    flex-direction: column;
+}
+
 .three-links > a {
     text-decoration: none;
 }
 
 .three-links-img{
-    max-width: 100%;
-    height:auto;
+    width: 100px;
+    height:100px;
 }
 
 .three-links{
@@ -42,8 +55,8 @@ body{
     border-width: 2px;
     border-style: solid;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
     text-align: center;
 }
 
@@ -51,21 +64,21 @@ body{
     border: black;
     border-width: 2px;
     border-style: solid;
-    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .three-links-medical{
     border: black;
     border-width: 2px;
     border-style: solid;
-    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .three-links-pharmacy{
     border: black;
     border-width: 2px;
     border-style: solid;
-    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .rcmc-description{
