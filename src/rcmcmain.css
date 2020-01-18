@@ -49,8 +49,8 @@ body{
 
 .three-links{
     font-size: 2.5em;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 40px;
     margin-bottom: 40px;
     display: flex;
@@ -59,15 +59,7 @@ body{
     height:auto;
 }
 
-.three-links-rehab{
-    flex-basis: 30%;
-}
-
-.three-links-medical{
-    flex-basis: 30%;
-}
-
-.three-links-pharmacy{
+.three-links-rehab, .three-links-medical, .three-links-pharmacy{
     flex-basis: 30%;
 }
 
@@ -77,24 +69,20 @@ body{
 }
 
 .card-container{
-    margin-left:15%;
-    margin-right: 15%;
+    margin-left:10%;
+    margin-right: 10%;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-.contact-card{
+.contact-card, .phone-card{
     padding-left:5px;
     padding-right:5px;
 }
 
-.phone-card{
-    padding-left:5px;
-    padding-right:5px;
-}
 .rcmc-map-container{
-    margin-left:15%;
-    margin-right:15%;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 .rcmc-map{
