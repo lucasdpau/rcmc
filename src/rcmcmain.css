@@ -1,6 +1,7 @@
 body{
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0px;
+    text-align:center;
 }
 
 .main_page_header{
@@ -50,35 +51,24 @@ body{
     font-size: 2.5em;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 40px;
     margin-bottom: 40px;
-    border: black;
-    border-width: 2px;
-    border-style: solid;
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    text-align: center;
+    flex-flow:row wrap;
+    justify-content: center;
+    height:auto;
 }
 
 .three-links-rehab{
-    border: black;
-    border-width: 2px;
-    border-style: solid;
-    flex-basis: 100%;
+    flex-basis: 30%;
 }
 
 .three-links-medical{
-    border: black;
-    border-width: 2px;
-    border-style: solid;
-    flex-basis: 100%;
+    flex-basis: 30%;
 }
 
 .three-links-pharmacy{
-    border: black;
-    border-width: 2px;
-    border-style: solid;
-    flex-basis: 100%;
+    flex-basis: 30%;
 }
 
 .rcmc-description{
@@ -86,10 +76,27 @@ body{
     max-width: 70%;
 }
 
-.body-header{
-    text-align:center;
+.card-container{
+    margin-left:15%;
+    margin-right: 15%;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.contact-card{
+    padding-left:5px;
+    padding-right:5px;
 }
 
-.main_page_footer{
-    text-align: center;
+.phone-card{
+    padding-left:5px;
+    padding-right:5px;
+}
+.rcmc-map-container{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.rcmc-map{
+    max-width:100%;
 }

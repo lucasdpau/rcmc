@@ -12,6 +12,16 @@ function App() {
       </div>
     );
   }
+
+  else {
+    return (
+      <div>
+        <phHeader />
+        <phFooter />
+        <phBody />
+      </div>
+    );
+  }
 }
 
 export default App;
