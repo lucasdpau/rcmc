@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Header, Footer, Body} from "./RCMC";
 import {phHeader, phFooter, phBody} from "./pharmacy";
 
@@ -25,3 +25,9 @@ function App() {
 }
 
 export default App;
+
+class App extends Component {
+  constructor(props) {
+    
+  }
+}

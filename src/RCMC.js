@@ -94,13 +94,13 @@ function Contacts(){
                 <h4>Medical</h4>
                 info@royalcaremedical.com
                 <br />
-                (416) 925-5511  
+                (416) 925 - 5511  
             </div>
             <div className="phone-card">
                 <h4>Rehab</h4>
                 info@royalcarerehab.com   
                 <br/>       
-                (416) 925-2929 
+                (416) 925 - 2929 
             </div>
             <div className="phone-card">
                 <h4>Pharmacy</h4>
