@@ -11,7 +11,7 @@ function Header(){
     );
 }
 
-function Body(){
+function Body(props){
     return(
         <div className="main_page_body">
             <div className="three-links">
@@ -25,7 +25,8 @@ function Body(){
                     <br />
                     Medical
                 </a>
-                <a href="/pharmacy" className="three-links-pharmacy">
+                <a href="#pharmacy" className="three-links-pharmacy"
+                onClick={() => props.onClick("pharmacy")}>
                     <img src="./pharmacy-icon.png" className="three-links-img" alt="pharmacy logo"></img>
                     <br />
                     Pharmacy
