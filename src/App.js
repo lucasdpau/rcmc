@@ -14,8 +14,7 @@ class App extends Component {
     return (
       <div>
       <Header />
-      <Body onClick={(pageName) => this.changePage(pageName)}
-      currentPage = {this.state.currentPage}/>
+      <Body onClick={(pageName) => this.changePage(pageName)}/>
       <Footer />
     </div>
     );
@@ -25,8 +24,7 @@ class App extends Component {
     return (
       <div>
         <PhHeader />
-        <PhBody onClick={(pageName) => this.changePage(pageName)}
-      currentPage = {this.state.currentPage}/>
+        <PhBody onClick={(pageName) => this.changePage(pageName)}/>
         <PhFooter />
     </div>
     );
