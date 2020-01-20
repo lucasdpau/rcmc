@@ -29,19 +29,6 @@ h2{
     justify-content: center;
 }
 
-.pharmacy_page_header{
-    height: 500px;
-    background: fixed;
-    background-image: url("./img/pharmacy2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.pharmacy_page_header_words{
-    flex-direction: column;
-}
-
 .three-links > a {
     text-decoration: none;
 }
@@ -77,7 +64,7 @@ h2{
 
 .rcmc-description{
     margin:auto;
-    max-width: 70%;
+    max-width: 80%;
     font-size:16px;
 }
 

@@ -111,7 +111,7 @@ function Contacts(){
             </div>
             <div className="phone-card">
                 <h4>Optometry</h4>
-                Sandra.solano@rocketmail.com 
+                sandra.solano@rocketmail.com 
                 <br/>
                 (647) 893 - 1925  
             </div>

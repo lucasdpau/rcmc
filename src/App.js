@@ -10,7 +10,7 @@ class App extends Component {
     };
   }
   
-  renderMedical(){
+  renderHome(){
     return (
       <div>
       <Header />
@@ -32,9 +32,9 @@ class App extends Component {
 
   renderCurrentPage() {
     switch(this.state.currentPage){
-      case 'medical':
+      case 'home':
       default:
-        return this.renderMedical();
+        return this.renderHome();
       case 'pharmacy':
         return this.renderPharmacy();
     }

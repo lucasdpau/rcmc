@@ -1,5 +1,5 @@
 import React from 'react';
-import "./rcmcmain.css";
+import "./pharmacy.css";
 
 function PhHeader(){
     return(
@@ -14,7 +14,7 @@ function PhHeader(){
 
 function PhBody(props){
     return(
-        <div>
+        <div class="pharmacy-body">
             <div>
                 <a href="#medical" className="three-links-medical"
                 onClick={() => props.onClick("medical")}>
@@ -29,6 +29,18 @@ function PhBody(props){
                 students and families, we take pleasure in optimizing our clients overall health and knowledge and in creating 
                 a welcoming experience for all. We are here to provide maximum care for our patients. Please feel 
                 free to contact us if you have any questions regarding your medication or health.
+            </div>
+            <PharmacyHours />
+        </div>
+    );
+}
+
+function PharmacyHours(){
+    return(
+        <div>
+            <h2>Pharmacy Hours</h2>
+            <div>
+                Monday - Saturday: 10 AM - 5 PM
             </div>
         </div>
     );
